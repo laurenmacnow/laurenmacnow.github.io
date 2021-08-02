@@ -90,12 +90,12 @@ p, ul {
 .links {
     text-decoration: none;
     color: inherit;
-    color: #58585B;
+    color: #58585B; /* change color of the icons on top */
     display: inline-block;
 }
 
 .links:hover {
-    color: salmon; /* change color of highlighted icons here! */
+    color: salmon; /* change color of icons when you hover over them! */
   }
 
 .primary-titles {
@@ -110,7 +110,7 @@ p, ul {
 
 
 .location {
-  color: #808284;
+  color: lightslategray; /* change color of location */
   display: inline-block;
   font-size: 13px;
   letter-spacing: 2px;
@@ -125,21 +125,21 @@ p, ul {
 }
 
 .category-details {
-    color: #808284;
+    color: black; 
     font-size: 13px;
     padding-top: 10px;
 	padding-bottom: 15px;
 }
 
 .category-description-main {
-  color: #808284;
+  color: black;     /* change color of 'summary' main text */
   font-size: 13px;
   line-height: 18px;
   padding-top: 10px;
 }
 
 .category-description {
-    color: #808284;
+    color: black; /* change color of the main text! */
     font-size: 13px;
     line-height: 18px;
     padding-top: 10px;
